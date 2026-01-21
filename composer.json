@@ -1,0 +1,27 @@
+{
+  "name": "agents/playground",
+  "description": "AgentsPHP battlefield",
+  "type": "project",
+  "license": "MIT",
+  "require": {
+    "php": ">=8.4"
+  },
+  "require-dev": {
+    "agents/skills": "^0.1.0",
+    "agents/templates": "^0.1.0"
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "scripts": {
+    "post-update-cmd": [
+      "@composer agents:templates --template agents/templates/demo --override",
+      "@composer agents:skills --override"
+    ]
+  },
+  "config": {
+    "allow-plugins": {
+      "agents/templates": true,
+      "agents/skills": true
+    }
+  }
+}

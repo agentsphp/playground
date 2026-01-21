@@ -1,0 +1,118 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "ca3b79a3a7327635d609c6651f2b8583",
+    "packages": [],
+    "packages-dev": [
+        {
+            "name": "agents/skills",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agentsphp/skills.git",
+                "reference": "39921c7f7235f48ed9976d7de3ccdecdd11280c8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agentsphp/skills/zipball/39921c7f7235f48ed9976d7de3ccdecdd11280c8",
+                "reference": "39921c7f7235f48ed9976d7de3ccdecdd11280c8",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.0",
+                "php": ">=8.2"
+            },
+            "require-dev": {
+                "composer/composer": "^2.9.0",
+                "contributte/phpstan": "~0.4.0",
+                "contributte/qa": "~0.5.0",
+                "contributte/tester": "~0.5.0"
+            },
+            "default-branch": true,
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Agents\\Skills\\SkillsPlugin",
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Agents\\Skills\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "Discover and install AI agent skills from Composer dependencies",
+            "support": {
+                "issues": "https://github.com/agentsphp/skills/issues",
+                "source": "https://github.com/agentsphp/skills/tree/master"
+            },
+            "time": "2026-01-23T11:01:22+00:00"
+        },
+        {
+            "name": "agents/templates",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/agentsphp/templates.git",
+                "reference": "c16479ba29863a19a73c2cc4e79f43f2d142ad38"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/agentsphp/templates/zipball/c16479ba29863a19a73c2cc4e79f43f2d142ad38",
+                "reference": "c16479ba29863a19a73c2cc4e79f43f2d142ad38",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^2.0",
+                "php": ">=8.2"
+            },
+            "require-dev": {
+                "composer/composer": "^2.0",
+                "contributte/phpstan": "~0.4.0",
+                "contributte/qa": "~0.5.0",
+                "contributte/tester": "~0.5.0",
+                "symfony/console": "^7.3.2 || ^8.0.3"
+            },
+            "default-branch": true,
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Agents\\Templates\\TemplatesPlugin",
+                "branch-alias": {
+                    "dev-master": "0.1.x-dev"
+                }
+            },
+            "autoload": {
+                "psr-4": {
+                    "Agents\\Templates\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "description": "AgentsPHP templates",
+            "support": {
+                "issues": "https://github.com/agentsphp/templates/issues",
+                "source": "https://github.com/agentsphp/templates/tree/master"
+            },
+            "time": "2026-01-23T11:02:45+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "dev",
+    "stability-flags": {},
+    "prefer-stable": true,
+    "prefer-lowest": false,
+    "platform": {
+        "php": ">=8.4"
+    },
+    "platform-dev": {},
+    "plugin-api-version": "2.9.0"
+}
